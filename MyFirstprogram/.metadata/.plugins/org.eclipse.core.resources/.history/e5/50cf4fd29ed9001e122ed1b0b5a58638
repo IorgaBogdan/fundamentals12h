@@ -1,0 +1,19 @@
+public class Main{
+
+
+public static void main(String[] args){
+
+	Masina masina1 = new Masina();   // aici am creat obiectul masina1 din clasa Masina
+	Masina masina2 = new Masina();   // aici am creat obiectul masina2 din clasa Masina
+	
+	System.out.println(masina1.an);
+	System.out.println(masina1.color);
+	System.out.println(masina2.make);
+	System.out.println(masina2.price);
+	// se poate observa c ambele obiecte au luat valoarea atributelor prestabilite din clasa Masina
+	masina1.drive();
+	masina2.brake();
+}
+}
+
+

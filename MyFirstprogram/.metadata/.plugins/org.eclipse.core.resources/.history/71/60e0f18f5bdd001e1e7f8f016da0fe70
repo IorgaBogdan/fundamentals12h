@@ -1,0 +1,10 @@
+
+public class Friend {
+	String name;
+	int numberofFriends;
+	
+	Friend (String name){
+		this.name=name;
+		numberofFriends++;
+	}
+}

@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Friend prieten1=new Friend("Alexandra");
+		Friend prieten2=new Friend("Bogdan");
+		System.out.println(Friend.numberofFriends);
+		Friend.printofNumberF();
+	}
+
+}

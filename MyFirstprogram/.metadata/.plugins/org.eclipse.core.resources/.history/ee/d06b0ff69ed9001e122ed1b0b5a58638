@@ -1,0 +1,15 @@
+public class Main{
+
+
+public static void main(String[] args){
+
+	Persoana persoana1 = new Persoana("Alexandra",26,161.5);
+	Persoana persoana2 = new Persoana("Bogdan",28,181.2);
+	
+	persoana1.bea(); 
+	
+	
+}
+}
+
+
