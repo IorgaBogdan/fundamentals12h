@@ -1,0 +1,19 @@
+public class Main{
+
+
+public static void main(String[] args){
+
+	Masina masina1 = new Masina();
+	Masina masina2 = new Masina();
+	
+	System.out.println(masina1.an);
+	System.out.println(masina1.color);
+	System.out.println(masina2.make);
+	System.out.println(masina2.price);
+	
+	masina1.drive();
+	masina2.brake();
+}
+}
+
+
